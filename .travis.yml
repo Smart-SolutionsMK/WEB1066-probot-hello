@@ -13,3 +13,6 @@ script:
   - docker run -rm probot-hello npm run lint
 deploy:
   provider: heroku
+  api_key: fcc0031d-c94d-4c23-b67f-f1754f047e82
+  on: heroku-production
+  app: probot-mk
